@@ -1,0 +1,77 @@
+{
+    "sports_bikes":[
+
+        {
+            "id": 1,
+            "bike_name": "Yamaha YZF R15 V3",
+            "price": 148480,
+            "specifications":{
+                "top-speed": 200,
+                "Mileage": 40,
+                "Max Power": 18.37
+            },
+            "rating": 4.2
+        },
+        {
+            "id": 2,
+            "bike_name": "KTM RC 125",
+            "price": 159675,
+            "specifications":{
+                "top-speed": 250,
+                "Mileage": 30,
+                "Max Power": 19.37
+            },
+            "rating": 4.5
+
+        },
+        {
+            "id": 3,
+            "bike_name": "Bajaj Pulsar RS 200",
+            "price": 151675,
+            "specifications":{
+                "top-speed": 150,
+                "Mileage": 44,
+                "Max Power": 17.37
+            },
+            "rating": 4.1
+        }
+    ],
+
+    "cruisers":[
+
+        {
+            "id": 1,
+            "bike_name": "HARLEY-DAVIDSON STREET™ 750",
+            "price": 469000,
+            "specifications":{
+                "top-speed": 200,
+                "Mileage": 30,
+                "Max Power": 15.37
+            },
+            "rating": 4.7
+        },
+        {
+            "id": 2,
+            "bike_name": "Harley Davidson Iron 883",
+            "price": 959675,
+            "specifications":{
+                "top-speed": 240,
+                "Mileage": 25,
+                "Max Power": 16.37
+            },
+            "rating": 4.5
+
+        },
+        {
+            "id": 3,
+            "bike_name": "Harley Davidson Forty Eight",
+            "price": 1051675,
+            "specifications":{
+                "top-speed": 220,
+                "Mileage": 44,
+                "Max Power": 17.37
+            },
+            "rating": 4.8
+        }
+    ]
+}

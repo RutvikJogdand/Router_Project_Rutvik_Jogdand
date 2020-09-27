@@ -1,0 +1,48 @@
+.NavBarMain
+{
+    display: flex;
+}
+
+.NavBarMain:first-child
+{
+    flex: 2;
+    /* border: 1px solid black; */
+    background-color: rgb(36,32,33);
+}
+
+.NavBarMain:nth-child(2)
+{
+    flex: 4;
+}
+
+.MainLinks
+{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 100%;
+    padding-left: 100px;
+    background-color: rgb(36,32,33);
+}
+
+.MainLinks > a
+{
+    flex: 1;
+    padding-top: 20px; 
+    color: white;
+    text-decoration: none;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    
+}
+
+.MainLinks > a:hover
+{
+    text-decoration: underline;
+}
+
+.NavBarMain:first-child  img
+{
+    height: 75px;
+    margin-right: 76%;
+    padding: -1px;
+}
