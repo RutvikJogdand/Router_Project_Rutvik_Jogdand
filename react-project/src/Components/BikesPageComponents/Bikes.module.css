@@ -1,4 +1,32 @@
 .BikesMain
 {
     display: flex;
+    
+}
+
+.BikesMain > div
+{
+    flex: 1;
+    text-align: center;
+}
+
+.BikesMainDiv
+{
+    padding-left: 5%;
+    border: 1px solid red;
+}
+
+.MainDiv1
+{
+    background-color: violet;
+}
+
+.MainDiv2
+{
+    background-color: rgb(122, 50, 122);
+}
+
+.MainDiv3
+{
+    background-color: rgb(95, 68, 95);
 }
