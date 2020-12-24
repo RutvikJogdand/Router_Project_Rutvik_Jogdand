@@ -20,15 +20,17 @@ export default class Routes extends React.Component{
         
         return(
             <>
-                <Route path="/" exact render={()=><Home/> } />
-                <Route path="/bikes" render={()=><Bikes/> }/>   
-                <Route path="/bikes/sports-bikes"   render={()=><SportsBikes/>} />
-                <Route path="/bikes/cruisers"  render={()=><Cruisers/> } />  
-                <Route path="/bikes/electric" render={()=><ElectricBikes/>}/>           
-                <Route path="/accessories" render={()=><Accessories/> } />
-                <Route path="/about-us" render={()=><AboutUs/> } />
-                <Route path="/login" render={()=><Login/> } />
-                <Route path="/cart" render={()=><Cart/> }/>
+                <Switch>
+                    <Route path="/" exact render={()=><Home/> } />
+                    <Route path="/bikes" render={()=><Bikes/> }/>   
+                    {/* <Route path="/bikes/sports-bikes"   render={()=><SportsBikes/>} />
+                    <Route path="/bikes/cruisers"  render={()=><Cruisers/> } />  
+                    <Route path="/bikes/electric" render={()=><ElectricBikes/>}/>            */}
+                    <Route path="/accessories" render={()=><Accessories/> } />
+                    <Route path="/about-us" render={()=><AboutUs/> } />
+                    <Route path="/login" render={()=><Login/> } />
+                    <Route path="/cart" render={()=><Cart/> }/>
+                </Switch>
             </>
         )
        
