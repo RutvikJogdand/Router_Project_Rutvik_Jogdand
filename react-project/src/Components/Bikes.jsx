@@ -1,5 +1,4 @@
 import React from "react"
-import { Link, Route, Switch } from "react-router-dom"
 import styles from "./BikesPageComponents/Bikes.module.css"
 import SportsBikes from "./BikesPageComponents/SportsBikes"
 import Cruisers from "./BikesPageComponents/Cruisers"

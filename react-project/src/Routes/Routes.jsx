@@ -6,10 +6,6 @@ import Bikes from "../Components/Bikes"
 import Cart from "../Components/Cart"
 import Login from "../Components/Login"
 import Home from "./../Components/Home"
-import SportsBikes from "./../Components/BikesPageComponents/SportsBikes"
-import Cruisers from "../Components/BikesPageComponents/Cruisers"
-import ElectricBikes from "./../Components/BikesPageComponents/ElectricBikes"
-// import {AuthContext} from "./../Components/AuthContext"
 
 
 
@@ -23,9 +19,6 @@ export default class Routes extends React.Component{
                 <Switch>
                     <Route path="/" exact render={()=><Home/> } />
                     <Route path="/bikes" render={()=><Bikes/> }/>   
-                    {/* <Route path="/bikes/sports-bikes"   render={()=><SportsBikes/>} />
-                    <Route path="/bikes/cruisers"  render={()=><Cruisers/> } />  
-                    <Route path="/bikes/electric" render={()=><ElectricBikes/>}/>            */}
                     <Route path="/accessories" render={()=><Accessories/> } />
                     <Route path="/about-us" render={()=><AboutUs/> } />
                     <Route path="/login" render={()=><Login/> } />
@@ -37,4 +30,3 @@ export default class Routes extends React.Component{
     }
 }
 
-// Routes.contextType = AuthContext
