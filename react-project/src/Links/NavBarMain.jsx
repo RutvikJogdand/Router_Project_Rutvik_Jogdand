@@ -14,7 +14,7 @@ export default class NavBarMain extends React.Component{
           <>
             <div className={styles.NavBarMain}>
                 <div>
-                   <Link to="/"><img src="./../Components/photos/logo_size.jpg" alt="Logo"/> </Link>     
+                   <Link to="/"><img src="https://raw.githubusercontent.com/RutvikJogdand/Router_Project_Rutvik_Jogdand/master/react-project/src/Components/photos/logo_size_invert.jpg" alt="Logo"/> </Link>     
                 </div>  
 
                 <div className={styles.MainLinks}>
