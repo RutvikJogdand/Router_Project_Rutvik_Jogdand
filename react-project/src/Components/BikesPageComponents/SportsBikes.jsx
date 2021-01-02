@@ -25,6 +25,11 @@ class SportsBikes extends React.Component{
                                 <div>
                                     <img className={styles.bikeImg} src={item.img} alt={item.bike_name} />
                                 </div>
+
+                                <div>
+                                    <p> {item.bike_name} </p>
+                                    <p> {item.price.toString().split("").join("").slice(0,1) + "," + item.price.toString().split("").join("").slice(1,3) + "," + item.price.toString().split("").join("").slice(3) } ₹ </p>
+                                </div>
                             </div>
                         )
                     })

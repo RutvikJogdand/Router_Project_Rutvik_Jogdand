@@ -10,6 +10,7 @@
                 "Mileage": 40,
                 "Max Power": 18.37
             },
+            "category": "sports",
             "rating": 4.2,
             "img": "https://wallpapertag.com/wallpaper/middle/e/a/a/631588-free-download-yamaha-yzf-r3-wallpapers-1998x1125-for-android-40.jpg"
         },
@@ -22,6 +23,7 @@
                 "Mileage": 30,
                 "Max Power": 19.37
             },
+            "category": "sports",
             "rating": 4.5,
             "img": "https://i.pinimg.com/564x/72/71/87/7271871d960c4ace4c2adc93327d734c.jpg"
 
@@ -35,6 +37,7 @@
                 "Mileage": 44,
                 "Max Power": 17.37
             },
+            "category": "sports",
             "rating": 4.1,
             "img": "https://5.imimg.com/data5/TR/MT/FX/GLADMIN-41034550/selection-401-500x500.png"
         }
@@ -51,6 +54,7 @@
                 "Mileage": 30,
                 "Max Power": 15.37
             },
+            "category": "cruisers",
             "rating": 4.7,
             "img": "https://bd.gaadicdn.com/processedimages/harley-davidson/harley-davidson-street/source/harley-davidson-street5e784058688e3.jpg?tr=w-360"
         },
@@ -63,6 +67,7 @@
                 "Mileage": 25,
                 "Max Power": 16.37
             },
+            "category": "cruisers",
             "rating": 4.5,
             "img": "https://www.harley-davidson.com/content/dam/h-d/images/motorcycles/my19/sportster/iron-883/overview/dom/19-sportster-iron-883-hero.jpg?crop"
 
@@ -76,6 +81,7 @@
                 "Mileage": 44,
                 "Max Power": 17.37
             },
+            "category": "cruisers",
             "rating": 4.8,
             "img": "https://www.harley-davidson.cn/content/dam/h-d/images/motorcycles/my20/sportster/forty-eight-special/overview/hdi/mobile/20-sportster-forty-eight-special-HDI-hero-mobile.jpg"
         }
