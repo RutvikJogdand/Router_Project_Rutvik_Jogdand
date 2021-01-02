@@ -4,6 +4,7 @@ import styles from "./NavBarMain.module.css"
 import {AuthContext} from "./../Components/AuthContext"
 
 
+
 export default class NavBarMain extends React.Component{
 
     render()
@@ -13,7 +14,7 @@ export default class NavBarMain extends React.Component{
           <>
             <div className={styles.NavBarMain}>
                 <div>
-                   <Link to="/"><img src="https://i.pinimg.com/600x315/fa/31/b3/fa31b37cd6126b2f6f05b75344bffb38.jpg" alt="Logo"/> </Link>     
+                   <Link to="/"><img src="./../Components/photos/logo_size.jpg" alt="Logo"/> </Link>     
                 </div>  
 
                 <div className={styles.MainLinks}>

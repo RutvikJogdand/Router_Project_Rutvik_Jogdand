@@ -6,9 +6,9 @@
             "bike_name": "Yamaha YZF R15 V3",
             "price": 148480,
             "specifications":{
-                "top-speed": 200,
+                "top_speed": 200,
                 "Mileage": 40,
-                "Max Power": 18.37
+                "Max_Power": 18.37
             },
             "category": "sports",
             "rating": 4.2,
@@ -19,9 +19,9 @@
             "bike_name": "KTM RC 125",
             "price": 159675,
             "specifications":{
-                "top-speed": 250,
+                "top_speed": 250,
                 "Mileage": 30,
-                "Max Power": 19.37
+                "Max_Power": 19.37
             },
             "category": "sports",
             "rating": 4.5,
@@ -33,9 +33,9 @@
             "bike_name": "Bajaj Pulsar RS 200",
             "price": 151675,
             "specifications":{
-                "top-speed": 150,
+                "top_speed": 150,
                 "Mileage": 44,
-                "Max Power": 17.37
+                "Max_Power": 17.37
             },
             "category": "sports",
             "rating": 4.1,
@@ -50,9 +50,9 @@
             "bike_name": "HARLEY-DAVIDSON STREET™ 750",
             "price": 469000,
             "specifications":{
-                "top-speed": 200,
+                "top_speed": 200,
                 "Mileage": 30,
-                "Max Power": 15.37
+                "Max_Power": 15.37
             },
             "category": "cruisers",
             "rating": 4.7,
@@ -63,9 +63,9 @@
             "bike_name": "Harley Davidson Iron 883",
             "price": 959675,
             "specifications":{
-                "top-speed": 240,
+                "top_speed": 240,
                 "Mileage": 25,
-                "Max Power": 16.37
+                "Max_Power": 16.37
             },
             "category": "cruisers",
             "rating": 4.5,
@@ -77,9 +77,9 @@
             "bike_name": "Harley Davidson Forty Eight",
             "price": 1051675,
             "specifications":{
-                "top-speed": 220,
+                "top_speed": 220,
                 "Mileage": 44,
-                "Max Power": 17.37
+                "Max_Power": 17.37
             },
             "category": "cruisers",
             "rating": 4.8,

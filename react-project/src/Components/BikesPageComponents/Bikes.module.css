@@ -1,32 +1,15 @@
-.BikesMain
-{
+.bikesContainer{
     display: flex;
-    
+    justify-content: center;
 }
 
-.BikesMain > div
-{
+.bikesContainer > div{
     flex: 1;
-    text-align: center;
-}
-
-.BikesMainDiv
-{
-    padding-left: 5%;
-    border: 1px solid red;
-}
-
-.MainDiv1
-{
-    background-color: violet;
-}
-
-.MainDiv2
-{
-    background-color: rgb(122, 50, 122);
-}
-
-.MainDiv3
-{
-    background-color: rgb(95, 68, 95);
+    box-shadow: -1px 4px 12px -1px rgba(0,0,0,0.6);
+    -webkit-box-shadow: -1px 4px 12px -1px rgba(0,0,0,0.6);
+    -moz-box-shadow: -1px 4px 12px -1px rgba(0,0,0,0.6);
+    max-width: 400px;
+    min-width: 399px;
+    margin-right: 40px;
+    padding: 20px;
 }

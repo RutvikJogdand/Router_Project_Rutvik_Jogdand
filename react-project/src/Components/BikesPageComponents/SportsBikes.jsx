@@ -2,6 +2,7 @@ import React from "react"
 import {connect} from "react-redux"
 import {get_sports_bikes} from "./../../Redux/actions"
 import styles from "./SportsBikes.module.css"
+import styles2 from "./Bikes.module.css"
 
 class SportsBikes extends React.Component{
 
@@ -16,7 +17,7 @@ class SportsBikes extends React.Component{
     {
         const {bikes_arr} = this.props
         return(
-            <div>
+            <div className={styles2.bikesContainer}>
                 {
                     bikes_arr && bikes_arr.map(item => {
 
@@ -28,7 +29,9 @@ class SportsBikes extends React.Component{
 
                                 <div>
                                     <p> {item.bike_name} </p>
-                                    <p> {item.price.toString().split("").join("").slice(0,1) + "," + item.price.toString().split("").join("").slice(1,3) + "," + item.price.toString().split("").join("").slice(3) } ₹ </p>
+                                    <p> INR {item.price.toString().split("").join("").slice(0,1) + "," + item.price.toString().split("").join("").slice(1,3) + "," + item.price.toString().split("").join("").slice(3) } </p>
+                                    <p> {item.specifications.top_speed} km/hr </p>
+                                    <p> {item.specifications.Mileage} km/ltr </p>
                                 </div>
                             </div>
                         )
